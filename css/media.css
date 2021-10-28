@@ -1,0 +1,1240 @@
+/*
+font-family: "Jost-Black";
+font-family: "Jost-Bold";
+font-family: "Jost-Italic";
+font-family: "Jost-Light";
+font-family: "Jost-Medium";
+font-family: "Jost-Regular";
+font-family: "Jost-SemiBold";
+font-family: "Jost-Thin";
+font-family: "PFRegalDisplayPro-Regular";
+*/
+@media screen and (max-width: 1440px) {
+    .catalogHeadNav {
+        margin: 0 0 0 10%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .headerNav li {
+        margin: 0 0 0 20px;
+    }
+
+    .catalogHeadNav {
+        margin: 0 0 0 8%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mainBannerTitle {
+        font-size: 60px;
+    }
+
+    .footer {
+        padding: 0 0 5px;
+    }
+
+    #footer .section,
+    .section {
+        padding: 40px 0 0;
+    }
+
+    .sectionTitle {
+        margin: 0 0 40px;
+    }
+
+    .sectionTitle:after {
+        margin: 20px auto 0;
+    }
+
+    .sectionVideoTitle,
+    .activitiesTitle {
+        font-size: 80px;
+    }
+
+    .iconsList ul {
+        overflow: auto;
+    }
+
+    .iconsList li {
+        min-width: 210px;
+    }
+
+    .headerNav li {
+        margin: 0 0 0 15px;
+    }
+
+    .headerBtns li {
+        margin: 0;
+    }
+
+    .catBox {
+        line-height: 550px;
+    }
+
+    .catalogHeadNav ul li {
+        margin: 0 10px 0 0;
+    }
+
+    .catalogHeadNav {
+        margin: 0 0 0 4%;
+    }
+
+    .productCard .row10 [class*='colp10-'] {
+        width: 100%;
+    }
+
+    .additionalProductItem .btnLarge.btn1 {
+        width: 65%;
+    }
+
+    .productImagesCol {
+        padding: 0 10px 0 0;
+    }
+
+    .aboutPageBlock:before {
+        top: -60px;
+        bottom: -80px;
+    }
+
+    .aboutPage {
+        width: 100%;
+    }
+
+    .pageBanner .mainBannerTabs {
+        width: 100%;
+        left: 0;
+        margin: 0;
+        bottom: 0;
+    }
+
+    .colDecWith {
+        width: 400px;
+        height: 396px;
+        line-height: 396px;
+    }
+
+    .factItem.statPageSectionBg.top:before {
+        top: -266px;
+    }
+
+    .statPageCells3 {
+        margin: 0 !important;
+    }
+
+    .statPageCells3 ul li {
+        width: 100% !important;
+        min-height: 0px;
+    }
+
+    .statPageCells3 ul li img {
+        width: 100%;
+    }
+
+    .statPageCells3 ul li .statPageCellItem .statPageCellItemCont {
+        position: relative;
+        min-height: 0px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .header .searchForm,
+    .header .headerNav {
+        display: none;
+    }
+
+    .topHeader {
+        display: none;
+    }
+
+    .activitiesItem svg {
+        width: 380px;
+        height: 380px;
+    }
+
+    .sectionVideoTitle {
+        line-height: 400px;
+        background-size: auto 100%;
+    }
+
+    .headerBtns li.btnMobNav,
+    .headerBtns li.tel {
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        *zoom: 1;
+        *display: inline;
+    }
+
+    .openNav {
+        overflow: hidden;
+    }
+
+    .openNav .icon-nav:before {
+        top: 4px;
+        transform: rotate(45deg);
+    }
+
+    .openNav .icon-nav:after {
+        bottom: 4px;
+        transform: rotate(-45deg);
+    }
+
+    .openNav #mobHeaderMenu {
+        display: block;
+    }
+
+    .catBox {
+        line-height: 500px;
+    }
+
+    .title-64 {
+        font-size: 42px;
+    }
+
+    .firstSection {
+        padding: 20px 0 0;
+    }
+
+    .breadcrumbs1 {
+        margin: 0 0 20px;
+    }
+
+    .catalogHead {
+        white-space: nowrap;
+    }
+
+    .catalogHead .right {
+        width: 100%;
+        float: none;
+        padding: 20px 0 0;
+    }
+
+    .catalogHead .right:after {
+        width: 0;
+        height: 0;
+        clear: both;
+        content: '';
+        display: block;
+    }
+
+    .catalogHead .right .filterSelect {
+        float: left;
+        margin: 0 0 0 -8px;
+    }
+
+    .catalogHead .right .filterModal {
+        float: right;
+    }
+
+    .filterModalBody {
+        top: 48px;
+    }
+
+    .sortLinks {
+        display: block;
+        overflow: auto;
+    }
+
+    .products ul.js-productsMin li {
+        min-width: 178px !important;
+    }
+
+    .js-productsMin {
+        margin-left: -20px !important;
+        margin-right: -20px !important;
+    }
+
+    .js-productsMin .embla__innerWrap {
+        padding: 0 10px;
+    }
+
+    .pColors li {
+        width: 100px;
+        height: 100px;
+        line-height: 80px;
+        padding: 10px 0;
+    }
+
+    .pageBanner {
+        padding: 36px 0 80px;
+        line-height: 424px;
+    }
+
+    .statPageSection {
+        padding: 60px 0;
+    }
+
+    [class*="colp10-"].statPageSectionBg:before {
+        top: -80px;
+        bottom: -80px;
+    }
+
+    .teamListItem.statPageSectionBg.bottom:before,
+    .statPageSectionBlock.statPageSectionBg.bottom:before {
+        bottom: -80px;
+    }
+
+    .teamListItem.statPageSectionBg.top:before {
+        top: -205px;
+    }
+
+    .statPageCells2 {
+        margin: 0 0 -50px;
+    }
+
+    .factItem.statPageSectionBg.top:before {
+        top: -206px;
+    }
+
+    .factsCells {
+        margin: 0 0 -50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .catBox {
+        line-height: 400px;
+    }
+
+    .footer .colp10-3 {
+        width: 33.3333333%;
+    }
+
+    .footer .colp10-3:first-child {
+        display: none;
+    }
+
+    .saleStatusLabel {
+        width: 64px !important;
+        height: 64px !important;
+        line-height: 64px !important;
+        font-size: 24px;
+        right: 12px;
+        top: 12px;
+    }
+
+    .productItem {
+        margin: 0 0 20px;
+    }
+
+    .productPage {
+        display: block;
+    }
+
+    .productPage .productCard,
+    .productPage .productImagesCol {
+        width: 100%;
+        padding: 0;
+    }
+
+    .mainBannerTabsWrap {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+        overflow: auto;
+    }
+
+    .mainBannerTabsWrap .mainBannerTabs {
+        position: relative;
+    }
+
+    .aboutPage {
+        display: block;
+    }
+
+    .aboutPage .aboutPageRow {
+        display: block;
+    }
+
+    .aboutPage .aboutPageRow .aboutPageCol {
+        width: 100%;
+        display: block;
+        padding: 0 !important;
+    }
+
+    .aboutPageBlock:before {
+        left: 0;
+    }
+
+    .aboutPageCol:first-child .txt18,
+    .aboutPageCol:first-child .txt {
+        max-width: 100%;
+    }
+
+    .aboutPageBlock {
+        margin: 80px 0 0;
+    }
+
+    .aboutPageBlock:after {
+        width: 100%;
+        top: -20px;
+        border-top: 1px solid #544D46;
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+
+    .aboutPageBlock:before {
+        top: -40px;
+    }
+
+    .aboutPageCol:first-child {
+        margin: 0 0 20px;
+    }
+
+    .statPageSectionCont .row10 {
+        display: block;
+        margin: 0;
+    }
+
+    .statPageSectionCont .row10 [class*="colp10-"] {
+        width: 100%;
+        display: block;
+        margin: 0 0 20px;
+        padding: 0;
+    }
+
+    .statPageSectionCont .row10 [class*="colp10-"]:last-child {
+        margin: 0;
+    }
+
+    .statPageSection.statPageSectionBg {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    [class*="colp10-"].statPageSectionBg {
+        padding: 0 20px !important;
+        margin: 110px 0 0 !important;
+    }
+
+    [class*="colp10-"].statPageSectionBg:after {
+        width: 100%;
+        top: -60px;
+        border-top: 1px solid #544D46;
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+
+    [class*="colp10-"].statPageSectionBg:first-child {
+        margin: 0 0 100px !important;
+    }
+
+    [class*="colp10-"].statPageSectionBg:first-child:before {
+        bottom: -60px;
+    }
+
+    [class*="colp10-"].statPageSectionBg:first-child:after {
+        top: auto;
+        bottom: -40px;
+    }
+
+    [class*="colp10-"].statPageSectionBg:before {
+        left: 0;
+        right: 0;
+    }
+
+    .statPageSectionCont {
+        padding: 0;
+    }
+
+    .statPageSectionCont .autographIco {
+        margin: -50px 20px 0 0;
+    }
+
+    .teamList ul li {
+        width: 100%;
+    }
+
+    .teamList ul {
+        display: block;
+    }
+
+    .teamListItem.statPageSectionBg {
+        margin: 20px 0;
+        padding: 40px 20px;
+        border-top: 1px solid #544D46;
+        border-bottom: 1px solid #544D46;
+    }
+
+    .teamListItem.statPageSectionBg:before {
+        top: -20px !important;
+        bottom: -20px !important;
+    }
+
+    .statPageSection .colp10-6:first-child .statPageSectionBlock.statPageSectionBg.bottom {
+        padding: 40px 20px;
+        margin: 40px 0;
+        border-top: 1px solid #544D46;
+        border-bottom: 1px solid #544D46;
+    }
+
+    .statPageSection .colp10-6:first-child .statPageSectionBlock.statPageSectionBg.bottom:before {
+        top: -20px;
+        bottom: -20px;
+    }
+
+    .factsCells ul li {
+        width: 100% !important;
+    }
+
+    .factsCells ul li .factItem.statPageSectionBg:before {
+        display: none;
+    }
+
+    .statPageCells2 ul li {
+        width: 100%;
+        min-height: 0px;
+    }
+
+    .statPageCells2 ul li .statPageCellItem.statPageSectionBg {
+        padding: 60px 20px;
+        border-top: 1px solid #544D46;
+        border-bottom: 1px solid #544D46;
+        margin: 20px 0;
+    }
+
+    .statPageCells2 ul li .statPageCellItem.statPageSectionBg:before {
+        top: -20px;
+        bottom: -20px;
+    }
+
+    .statPageCells2 ul li .statPageCellItem .statPageCellItemCont {
+        position: static;
+        padding: 0;
+        min-height: 0px;
+    }
+
+    .statPageCellItem {
+        min-height: 0px;
+    }
+
+    .targetsCells ul li {
+        width: 20%;
+    }
+
+    .list1 li {
+        font-size: 18px;
+        margin: 0 0 20px;
+    }
+
+    .list1 li:before {
+        margin: 8px 0 0 -26px;
+    }
+
+    .articles ul li {
+        margin: 0 0 40px;
+    }
+
+    .statPageCells4 ul li {
+        width: 100% !important;
+    }
+
+    .statPageCells4 ul li .statPageCellItem {
+        min-height: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .txtSection .colp10-6 {
+        width: 100%;
+    }
+
+    .txtSection .colp10-6 .title-48 {
+        margin: 0 0 20px;
+    }
+
+    .txtSection .autographIco {
+        position: relative;
+    }
+
+    .txt {
+        margin-bottom: 20px;
+    }
+
+    .collections .colp10-6 {
+        width: 100%;
+    }
+
+    .collections .colp10-6 .collectionBox {
+        margin: 0 0 20px;
+    }
+
+    .mainBannerTitle {
+        font-size: 48px;
+    }
+
+    .mainBannerTxt {
+        font-size: 20px;
+    }
+
+    .catBoxes {
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    .catBoxes li {
+        min-width: 266px;
+    }
+
+    .catBox {
+        line-height: 370px;
+    }
+
+    .title-48 {
+        font-size: 36px;
+    }
+
+    .sectionVideoTitle,
+    .activitiesTitle {
+        font-size: 64px;
+        width: 80%;
+        word-break: break-all;
+    }
+
+    .activitiesTitle {
+        left: 10%;
+    }
+
+    .sectionVideoLinks .linksWithDec {
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    .sectionVideoLinks .linksWithDec li {
+        margin: 0 20px;
+    }
+
+    .sectionVideoLinks {
+        bottom: 20px;
+    }
+
+    .footerMin {
+        padding: 20px 0;
+        text-align: left;
+    }
+
+    .footerMin .studioLogo,
+    .footerMin .footerMinLinks,
+    .footerMin .footerMinText {
+        float: none;
+        display: block;
+        margin: 0 0 20px;
+    }
+
+    .footerMin .studioLogo {
+        margin: 0;
+    }
+
+    .mainBannerTabs {
+        bottom: 0;
+    }
+
+    .activitiesItem svg {
+        width: 220px;
+        height: 220px;
+    }
+
+    .activitiesItemTitle {
+        left: 33%;
+    }
+
+    .activitiesItem:nth-child(2) {
+        margin: -131px -160px 0 0;
+    }
+
+    .activitiesItem:nth-child(2) .activitiesItemTitle {
+        bottom: 20%;
+        left: 20%;
+    }
+
+    .activitiesItem:nth-child(3) {
+        margin: -82px 0 0 80px;
+    }
+
+    .activitiesItem:nth-child(3) .activitiesItemTitle {
+        bottom: 30%;
+        left: 27%;
+    }
+
+    .sectionVideoTitle {
+        line-height: 300px;
+    }
+
+    .title-64 {
+        font-size: 36px;
+    }
+
+    .pageBannerTitle {
+        font-size: 48px;
+    }
+
+    .aboutPageBlock .autographIco {
+        margin: 0 0 -60px 46%;
+    }
+
+    .targetsCells ul li {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer .colp10-3 {
+        width: 100%;
+    }
+
+    .footerNavBody {
+        display: none;
+    }
+
+    .footerNav {
+        margin: 0 0 20px;
+    }
+
+    .footerNav.opened .footerNavBody {
+        display: block;
+    }
+
+    .footerNav.opened .icon-arrow-down {
+        transform: rotate(180deg);
+    }
+
+    .footerNavHead {
+        font-size: 20px;
+    }
+
+    .footerNavHead .icon-arrow-down {
+        display: block;
+    }
+
+    .subscribeForm {
+        max-width: 100%;
+    }
+
+    .js-products {
+        margin-left: -20px !important;
+        margin-right: -20px !important;
+    }
+
+    .js-products .embla__innerWrap {
+        padding: 0 10px;
+    }
+
+    .products ul.js-products li {
+        min-width: 266px;
+    }
+
+    .articles ul li {
+        width: 50% !important;
+    }
+
+    .articles ul li.double {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .products ul li {
+        width: 50%;
+    }
+
+    .productCardBlockHead {
+        padding: 0 32px 0 0;
+        position: relative;
+    }
+
+    .productCardBlockHead:after {
+        font-family: 'icomoon' !important;
+        content: "\e903";
+        font-size: 12px;
+        top: 5px;
+        right: 10px;
+        position: absolute;
+        transition: all 0.3s;
+    }
+
+    .productCardBlockBody {
+        display: none;
+    }
+
+    .productCardBlock.opened .productCardBlockHead:after {
+        transform: rotate(180deg);
+    }
+
+    .productCardBlock.opened .productCardBlockBody {
+        display: block;
+    }
+
+    .statPageCells4 ul li .statPageCellItem .colp10-6 {
+        width: 100%;
+    }
+
+    .statPageCells4 ul li .statPageCellItem .colp10-6 .mb-40 {
+        margin: 0 0 20px;
+    }
+
+    .statPageCells4 ul li .statPageCellItem .colp10-6 .factItemBottom {
+        position: static;
+        width: 100%;
+        padding: 0;
+        margin: 0 0 20px;
+    }
+
+    .swipeIco {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btnLarge {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .collectionBox {
+        height: 500px;
+        line-height: 500px;
+    }
+
+    .collectionBox .btnLarge {
+        display: block;
+    }
+
+    .autographIco,
+    .statusLabel {
+        width: 158px;
+        height: 158px;
+        line-height: 158px;
+    }
+
+    .autographIco {
+        background-size: 90%;
+    }
+
+    .sectionVideo {
+        padding: 40px 0;
+    }
+
+    #mainBanner .embla-navs {
+        display: none;
+    }
+
+    .mainBannerTabs {
+        bottom: 16px;
+    }
+
+    .sectionVideoLinks .linksWithDec li {
+        margin: 0 20px;
+        width: auto;
+        display: table;
+        text-align: left;
+    }
+
+    .sectionVideo .swipeIco,
+    #mainBanner video source {
+        display: none;
+    }
+
+    .sectionVideo .linksWithDec li a {
+        padding: 0 0 0px;
+        border-bottom: 1px solid;
+        margin-bottom: 13px;
+    }
+
+    .mainBannerItem {
+        padding: 0 0 30px;
+    }
+
+    .mainBannerItem .mainBannerContent {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    .activitiesTitle {
+        margin-top: -78px;
+    }
+
+    #footer .section {
+        padding: 20px 0 0;
+    }
+
+    .modalWindowCont {
+        padding: 10vh 15px 5vh;
+    }
+
+    .modalWindowClose {
+        width: 60px;
+        height: 60px;
+        top: 0;
+        right: 0;
+        line-height: 60px;
+    }
+
+    .loadMore {
+        margin: 20px 0;
+    }
+
+    .loadMore .btnLarge {
+        min-width: 100%;
+    }
+
+    .paginator1 ul {
+        font-size: 0;
+    }
+
+    .paginator1 ul li {
+        margin: 0;
+        font-size: 20px;
+        display: none;
+    }
+
+    .paginator1 ul li:nth-last-child(2),
+    .paginator1 ul li:nth-last-child(1),
+    .paginator1 ul li:nth-child(2),
+    .paginator1 ul li:nth-child(1) {
+        display: inline-block;
+    }
+
+    .materialsWrap .row10 [class*="colp10-"] {
+        width: 100%;
+    }
+
+    .productImages {
+        padding: 0;
+        margin: 0 0 20px;
+    }
+
+    .productImages .productBigImage {
+        margin: 0 0 20px;
+        float: none;
+    }
+
+    .productImages .productMinImages {
+        width: auto;
+        padding: 0 10px;
+        margin: 0;
+        overflow: auto;
+        margin: 0 -20px;
+        float: none;
+    }
+
+    .productImages .productMinImages ul {
+        white-space: nowrap;
+    }
+
+    .productImages .productMinImages ul li {
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        *zoom: 1;
+        *display: inline;
+        vertical-align: top;
+        margin: 0 8px;
+    }
+
+    .js-gProcess li {
+        min-width: 180px;
+    }
+
+    .productBigImage .pLabels {
+        top: 20px;
+        left: 20px;
+    }
+
+    .labelWithCheckBox,
+    .txt {
+        font-size: 18px;
+    }
+
+    .title-36 {
+        font-size: 30px;
+    }
+
+    .mItems2 li {
+        width: 140px !important;
+    }
+
+    .articles ul li {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home_cats .catBoxes {
+        white-space: normal;
+        overflow: hidden;
+    }
+
+    .home_cats .catBoxes li {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .iconsList.mb-40 {
+        margin-bottom: 0;
+    }
+
+    .iconsList ul {
+        white-space: normal;
+    }
+
+    .iconsList ul li {
+        width: 100%;
+        text-align: left;
+    }
+
+    .iconsList .iconItemIco {
+        max-width: 120px;
+        display: inline-block;
+        /* float: left; */
+        margin-right: 30px;
+    }
+
+    .iconsList .iconItemTitle {
+        display: inline-block;
+        max-width: 165px;
+        text-align: left;
+        font-size: 17px;
+    }
+
+    .iconsList ul li:after {
+        display: none;
+    }
+
+    .collectionBox {
+        height: 400px;
+        line-height: 400px;
+    }
+
+    .activitiesItem svg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .headerBtns li.user,
+    .headerBtns li.heart {
+        display: none;
+    }
+
+    .filterModalBody {
+        width: 100%;
+    }
+
+    .mobHeaderFooterNav li {
+        margin: 0 4px;
+    }
+
+    .additionalProducts {
+        font-size: 0px;
+        white-space: nowrap;
+        margin: -10px -20px;
+        overflow: auto;
+        padding: 0 10px;
+    }
+
+    .additionalProducts li {
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        *zoom: 1;
+        *display: inline;
+        width: 266px;
+        padding: 10px;
+        white-space: normal;
+    }
+
+    .additionalProducts li .productItemImage {
+        width: 100%;
+        margin: 0 0 20px;
+        float: none;
+    }
+
+    .colDecWith {
+        width: 100%;
+        line-height: 400px;
+        height: 400px;
+        padding: 0 20px;
+    }
+
+    .colDecWith .colDecWithText {
+        width: 100%;
+    }
+
+    .mItems li {
+        width: 86px;
+    }
+
+    .statPageSectionCont {
+        word-break: break-word;
+    }
+
+    .targetsCells ul li {
+        width: 50%;
+    }
+
+    .factsCells ul li {
+        min-height: 355px;
+    }
+
+    .link {
+        letter-spacing: 0px;
+    }
+
+    .mItems2 li {
+        width: 48% !important;
+    }
+
+    .mItems2 li:last-child {
+        width: 100% !important;
+    }
+
+    .statPageCells4 ul li {
+        min-height: 360px;
+    }
+
+    .logo {
+        height: 70px;
+    }
+
+    .logo a {
+        display: block;
+        height: 100%;
+    }
+
+    .logo a img {
+        height: 100%;
+    }
+
+    .header .right {
+        padding: 11px 0 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .factItemBottom .title-36 {
+        font-size: 21px;
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Proba Pro'!important;
+    }
+    [class*="colp10-"].statPageSectionBg:first-child:before{
+        bottom: -20px;
+        top: -15px;
+    }
+    .double .factItemBottom .factNumber+div{
+        display: none;
+    }
+    .factNumber {
+        font-size: 19px!important;
+    }
+    .factItemBottom .mb-40{
+        margin-bottom: 20px;
+    }
+    .headerInnerWrap{
+        padding: 0;
+    }
+    .articles ul li {
+        margin: 0 0 5px;
+    }
+    .articles ul li:last-child{
+        margin-bottom: 60px;
+    }
+    .headerBtns .tel{
+        margin-right: -19px!important;
+    }
+    .articles {
+        padding-top: 25px;
+    }
+    .title-64{
+        font-size: 32px;
+    }
+    .colDecWith {
+        line-height: 300px;
+        height: 300px;
+    }
+
+    .sectionVideoTitle span {
+        word-break: initial;
+    }
+
+    .sectionVideoTitle {
+        font-size: 54px;
+    }
+
+    .autographIco {
+        display: none;
+    }
+    .logo a img,
+    .header .logo,
+    .header.fixed .logo img,
+    .header.fixed .logo{
+        transition: all 0.3s ease;
+        max-height: 50px;
+    }
+    .header.fixed .right,
+    .header .right {
+        padding: 2px 0 0;
+    }
+    .productItem:hover .productItemButtons{
+        display: none;
+    }
+    .breadcrumbs1 ul{
+        overflow: scroll;
+        white-space: nowrap;
+        padding-bottom: 8px;
+    }
+    .additionalProducts .btnLarge{
+        height: 50px;
+        line-height: 42px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .section.withTBorder{
+        margin: 0;
+    }
+    .sectionTitle {
+        margin: 0 0 25px;
+    }
+    .additionalProducts{
+
+    }
+    .gProcessItem .gProcessItemTitle i{
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 400px) {
+    .collectionBox {
+        height: 350px;
+        line-height: 350px;
+    }
+
+    .pColors li {
+        margin: 0 10px 20px 0;
+    }
+
+    .sectionVideoTitle {
+        font-size: 43px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+    .paginator1 {
+        margin: 0 -20px;
+    }
+
+    .pageBannerTitle {
+        font-size: 36px;
+    }
+
+    .aboutPageBlock .autographIco {
+        margin: 0 0 -60px 35%;
+    }
+}

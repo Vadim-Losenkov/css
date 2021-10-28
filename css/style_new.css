@@ -1,0 +1,496 @@
+#olska_circle{
+    position: relative;
+}
+#olska_circle:before{
+    content: "°";
+    display: inline-block;
+    position: absolute;
+    font-size: 79px;
+    left: 0;
+    right: 0;
+    top: -8px;
+}
+.main_sustain .activitiesItemTitle{
+    border-bottom: 0;
+}
+.main_sustain .sectionVideo:before{
+    visibility: hidden;
+}
+.main_sustain .sectionVideoTitle{
+    background: unset;
+}
+.mt30{
+    margin-top: 30px!important;
+}
+.sectionTitle {
+    margin: 0 0 40px;
+}
+.sectionVideoLinks .linksWithDec{
+    max-width: unset;
+}
+.linksWithDec li a{
+    font-size: 18px;
+}
+/*.articles .articleItemImage img{
+    border-radius: 58% 42% 24% 76% / 58% 30% 70% 42%;
+}*/
+.articleItemCont {
+    background-color: #8e9869d4;
+    color: white;
+    padding: 9px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 70px;
+}
+.articleItemTitle a{
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+}
+.articleItemTitle a:hover{
+    color: white;
+    border-color: white;
+}
+.articleItemImage{
+    position: absolute;
+    width: 100%;
+}
+.articleItemImage a{
+    position: absolute;
+}
+.articleItemImage a img{
+    width: 100%;
+    position: absolute;
+}
+.scrollAnimateUp.scrollAnimate.scrollAnimated {
+    position: relative;
+    overflow: hidden;
+    min-height: 298px;
+}
+.articleItemCont .txt18{
+    margin: 0;
+}
+.articleItemTitle a{
+    font-size: 16px;
+}
+.articles ul li {
+    padding: 10px!important;
+    margin: 0px!important;
+}
+.articles ul{
+    margin-bottom: 20px;
+}
+.statPageCells4 ul.SNList{
+    display: inline-block;
+}
+.statPageCells4 .title-36{
+    display: inline-block;
+    font-size: 28px;
+}
+.statPageCells4 .addr_bottom .title-36{
+    font-size: 28px;
+}
+
+/*.statPageCells4 ul.SNList li{
+    max-height: 30px;
+}*/
+.page_not_found .title_404{
+    text-align: center;
+    width: 100%;
+    font-size: 16em;
+    margin-top: -150px;
+}
+.txt a.link2:hover{
+    text-decoration: none;
+}
+.sertificate{
+    display: inline-block;
+    width: auto;
+    height: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+        z-index: -1;
+}
+.serti_image{
+    display: flex;
+    /*overflow-x: scroll;*/
+    box-shadow: inset -10px 0px 12px #ffffff;
+    z-index: 9999999999;
+}
+.serti_image img{
+    padding: 20px;
+}
+.about_page .aboutPageWrap .section{
+    margin: 0;
+    padding: 50px 0 0;
+}
+.history_page .mItems li,
+.mission .mItems2 li{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+.history_page .mItems img,
+.mission .mItems2 img{
+    padding-right: 15px;
+}
+.mission .for_bottom_ico{
+    text-align: left;
+}
+.mission .title-36 {
+    font-size: 26px;
+    padding: 20px;
+}
+
+.values .statPageSectionBg:before{
+    display: none!important;
+}
+.values .factItemBottom{
+    text-align: left;
+}
+.material_page .statPageSectionCont .txt{
+    margin-bottom: 0px;
+}
+.haveItems li{
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+.about_page .txt,
+.history_page .txt,
+.material_page .txt,
+.values_page .txt,
+.ustoychivost .txt,
+.simple_text{
+    font-size: 18px;
+}
+.values_page .statPageCells3 ul li{
+    min-height: unset;
+}
+.values_page .statPageCells3 ul li .statPageCellItemCont{
+    position: static;
+}
+.OFF_color_figure.pageBanner:before{
+    display: none;
+}
+.OFF_block,
+.OFF_color_figure::after{
+    display: none;
+}
+.history_page .special .statPageSectionBg:before {
+    width: 100%;
+    left: 0;
+    top: -30px;
+    bottom: 20px;
+    position: absolute;
+    background: #F5F0E9;
+    content: "";
+    display: block;
+    z-index: -1;
+}
+.about_page .pageBannerTitle {
+    font-size: 48px;
+}
+.aboutPageBlock{
+    position: relative;
+}
+.history_page .statPageSection {
+    padding: 60px 0;
+}
+.history_page .statPageSectionBg:before {
+    width: 100%;
+    left: 0;
+    top: 30px;
+    bottom: 20px;
+    position: absolute;
+    background: #F5F0E9;
+    content: "";
+    display: block;
+    z-index: -1;
+}
+.history_page .statPageSectionCont {
+    padding: 30px;
+}
+.aboutPageBlock:before {
+    right: 0;
+    left: -5px;
+    top: -5px;
+    bottom: 0px;
+    background: #F5F0E9;
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+.our_team_page .teamListItemIBtn{
+    display: none;
+}
+.title-48 {
+    font-size: 35px;
+}
+.our_team_page .teamList ul li:first-child,
+.our_team_page .teamList ul li:last-child{
+    display: none;
+}
+.serti_image img{
+    height: auto;
+}
+.material_page .serti_image img{
+    height: 500px;
+}
+.digitalFashion .statPageSection div div:nth-child(2n-1) .imgFll{
+    max-height: 800px;
+}
+.digitalFashion .statPageSection .imgFll{
+        background-size: contain;
+}
+.collections_page.digitalFashion .statPageSection:first-child .colDecWith .colDecWithText {
+    font-size: 18px;
+    color: #544D46;
+    text-align: right;
+}
+/*.sustan_page {
+    border-radius: 32% 68% 26% 74% / 38% 32% 68% 62% ;
+}*/
+
+.collections_page.ecoFashion .statPageSection:first-child .colDecWith .colDecWithText{
+    font-size: 16px;
+    color: #544D46;
+    text-align: right;
+}
+.ustoychivost .colp10-12 .colMin{
+    width: 100%;
+    max-width: unset;
+}
+.ustoychivost .double.colp10-6 .colMin{
+    width: 100%;
+    max-width: unset;
+}
+.stopImageScale{
+    text-align: center;
+}
+.stopImageScale img{
+    width: 70%;
+}
+.collections_page .statPageSection:first-child .beStandart.txt{
+    color: unset;
+}
+.serti_image{
+    display: inline-block;
+}
+.digitalFashion .statPageSectionBg{
+    display: none;
+}
+
+
+@media screen and (min-width: 700px){
+
+    .serti_image::-webkit-scrollbar {
+      height: 5px;
+    }
+
+    /* Track */
+    .serti_image::-webkit-scrollbar-track {
+      background: ##5551511c;
+    }
+
+    /* Handle */
+    .serti_image::-webkit-scrollbar-thumb {
+      background: #21212196;
+    }
+
+    /* Handle on hover */
+    .serti_image::-webkit-scrollbar-thumb:hover {
+      background: #00000096;
+      cursor: pointer;
+    }
+
+
+    .mainBannerTabsWrap{
+        overflow: hidden;
+    }
+    .pageBanner .mainBannerTabs ul {
+        overflow-x: scroll;
+    }
+
+    .pageBanner .mainBannerTabs ul::-webkit-scrollbar {
+      height: 5px;
+    }
+
+    /* Track */
+    .pageBanner .mainBannerTabs ul::-webkit-scrollbar-track {
+      background: ##5551511c;
+    }
+
+    /* Handle */
+    .pageBanner .mainBannerTabs ul::-webkit-scrollbar-thumb {
+      background: #21212196;
+    }
+
+    /* Handle on hover */
+    .pageBanner .mainBannerTabs ul::-webkit-scrollbar-thumb:hover {
+      background: #00000096;
+      cursor: pointer;
+    }
+}
+@media screen and (max-width: 1500px){
+    .sectionVideoTitle {
+        height: 50%;
+        max-height: 50%;
+        font-size: 7.5vw;
+        line-height: 29vw;
+    }
+}
+@media screen and (max-width: 900px){
+    #olska_circle:before{
+        font-size: 60px;
+        top: -5px;
+    }
+}
+@media screen and (max-width: 768px){
+    #olska_circle:before {
+        font-size: 60px;
+        top: -2px;
+    }
+    .history_page .mItems img,
+.mission .mItems2 img{
+    padding-right: 15px;
+    float: left !important;
+}
+}
+@media screen and (max-width: 500px){
+    .pageBanner .mainBannerTabs ul li a{
+        padding: 19px 15px;
+    }
+    .catalogProducts .products ul:nth-child(2n) li:nth-child(2n){
+        margin-right: 7px;
+    }
+    .catalogProducts .products ul li:nth-child(2n+1){
+        margin-right: 7px;
+    }
+    .catalogProducts .products ul li{
+        margin-right: 4%;
+    }
+    .additionalProductsBlock .btnRadius.btnLarge{
+        width: 51px;
+    }
+    .page_not_found .title_404{
+        font-size: 13rem;
+    }
+    .productImages{
+        padding: 0;
+    }
+    .productMinImages li a{
+        width: auto;
+        margin: 0 10px;
+        overflow-y: hidden;
+    }
+    .productMinImages li:first-child a{
+        margin: 0 3px;
+    }
+    .delivery .statPageCells4 ul li .statPageCellItem{
+        background-position: bottom;
+    }
+    .serti_image{
+        display: inline-block;
+    }
+    .serti_image img{
+        display: block;
+        width: 100%;
+    }
+    .collections_page.digitalFashion .statPageSection:first-child .colDecWith .colDecWithText {
+        font-size: 16px;
+    }
+    .digitalFashion > .statPageSection.imgFull .row10 > div.scrollAnimate {
+        width: 50%;
+    }
+    .digitalFashion .statPageSection .imgFll, 
+    .digitalFashion .statPageSection .imgKv{
+        height: 25rem;
+    }
+	.our_team_page .statPageSection {
+		padding:40px 0;
+	}
+    .our_team_page .statPageSectionBg:before{
+        background: unset;
+    }
+    .breadcrumbs1{
+        text-align: center;
+    }
+    .mission .mItems2 li{
+        width: 100%!important;
+        text-align: center!important;
+    }
+    .mission .mItems2 img {
+        padding-right: 0px; 
+        display: block;
+        margin: 15px auto;
+    }
+    .title-48 {
+        font-size: 24px;
+    }
+    .factsCells ul li {
+        min-height: auto;
+    }
+    .factItemBottom{
+        position: static;
+        padding: 0;
+    }
+    .material_page  .block2 ul{
+        padding-left: 10px;
+    }
+    .sectionVideoTitle {
+        height: 50%;
+        max-height: 50%;
+        font-size: 10.5vw;
+        line-height: 29vw;
+    }
+    .about_page .pageBannerTitle {
+        font-size: 33px;
+    }
+    .history_page .statPageSection{
+        padding: 0;
+    }
+    .history_page .title-36 {
+        font-size: 20px;
+    }
+    .history_page .special .statPageSectionBg:before {
+        bottom: -20px;
+    }
+    .digitalFashion .imgFull .scrollAnimate{
+       display: block;
+       width: 100%!important;
+    }
+    .digitalFashion .statPageSection .imgFll, 
+    .digitalFashion .statPageSection .imgKv{
+        background-size: cover;
+        height: 53rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .logo a img, .header .logo, .header.fixed .logo img, .header.fixed .logo {
+        padding: 5px;
+        padding-left: 10px;
+    }
+    .articleItemCont {
+        background-color: #8e9869;
+    }
+    .statPageSectionBlock.statPageSectionBg {
+        padding: 0px;
+        margin-top: 33px;
+    }
+    [class*="colp10-"].statPageSectionBg:before {
+        top: -20px;
+        bottom: -25px;
+    }
+}
+@media screen and (max-width:425px){
+    .scrollAnimateUp.scrollAnimate.scrollAnimated {
+        min-height: 220px;
+    }
+}
+
+
+@media screen and (max-width:320px){
+
+}

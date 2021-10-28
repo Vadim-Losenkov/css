@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* Код для подключения шрифта в /css/stylename.css */
+@font-face {
+  font-family: "Jost-Black";
+  src: url("../fonts/Jost-Black/Jost-Black.eot");
+  src: url("../fonts/Jost-Black/Jost-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Black/Jost-Black.woff") format("woff"), url("../fonts/Jost-Black/Jost-Black.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Jost-Bold";
+  src: url("../fonts/Jost-Bold/Jost-Bold.eot");
+  src: url("../fonts/Jost-Bold/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Bold/Jost-Bold.woff") format("woff"), url("../fonts/Jost-Bold/Jost-Bold.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Jost-Italic";
+  src: url("../fonts/Jost-Italic/Jost-Italic.eot");
+  src: url("../fonts/Jost-Italic/Jost-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Italic/Jost-Italic.woff") format("woff"), url("../fonts/Jost-Italic/Jost-Italic.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Jost-Light";
+  src: url("../fonts/Jost-Light/Jost-Light.eot");
+  src: url("../fonts/Jost-Light/Jost-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Light/Jost-Light.woff") format("woff"), url("../fonts/Jost-Light/Jost-Light.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Jost-Medium";
+  src: url("../fonts/Jost-Medium/Jost-Medium.eot");
+  src: url("../fonts/Jost-Medium/Jost-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Medium/Jost-Medium.woff") format("woff"), url("../fonts/Jost-Medium/Jost-Medium.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Jost-Regular";
+  src: url("../fonts/Jost-Regular/Jost-Regular.eot");
+  src: url("../fonts/Jost-Regular/Jost-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Regular/Jost-Regular.woff") format("woff"), url("../fonts/Jost-Regular/Jost-Regular.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Jost-SemiBold";
+  src: url("../fonts/Jost-SemiBold/Jost-SemiBold.eot");
+  src: url("../fonts/Jost-SemiBold/Jost-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-SemiBold/Jost-SemiBold.woff") format("woff"), url("../fonts/Jost-SemiBold/Jost-SemiBold.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Jost-Thin";
+  src: url("../fonts/Jost-Thin/Jost-Thin.eot");
+  src: url("../fonts/Jost-Thin/Jost-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Thin/Jost-Thin.woff") format("woff"), url("../fonts/Jost-Thin/Jost-Thin.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "PFRegalDisplayPro-Regular";
+  src: url("../fonts/PFRegalDisplayPro-Regular/PFRegalDisplayPro-Regular.eot");
+  src: url("../fonts/PFRegalDisplayPro-Regular/PFRegalDisplayPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PFRegalDisplayPro-Regular/PFRegalDisplayPro-Regular.woff") format("woff"), url("../fonts/PFRegalDisplayPro-Regular/PFRegalDisplayPro-Regular.ttf") format("truetype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "TenorSans";
+   font-display: swap;
+  src: url("../fonts/TenorSans/TenorSans.eot");
+  src: url("../fonts/TenorSans/TenorSans.eot?#iefix") format("embedded-opentype"), url("../fonts/TenorSans/TenorSans.woff") format("woff"), url("../fonts/TenorSans/TenorSans.ttf") format("truetype");
+  
+  font-style: normal;
+  font-weight: normal; }
+
+  @font-face {
+    font-family: 'Proba Pro';
+    font-display: swap;
+    src: url("../fonts/ProbaPro-Regular/ProbaPro-Regular.eot");
+    src: url("../fonts/ProbaPro-Regular/ProbaPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-Regular/ProbaPro-Regular.woff") format("woff"), url("../fonts/ProbaPro-Regular/TenorSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal; 
+  }

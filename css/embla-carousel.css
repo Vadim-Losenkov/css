@@ -1,0 +1,54 @@
+.embla-carousel{
+  position: relative;
+}
+.embla__innerWrap{
+  position: relative;
+  overflow: hidden;
+}
+.embla__container{
+  display: flex;
+  flex-wrap: nowrap!important;
+  width: 100%;
+}
+.embla-navs {
+  position: absolute;
+  display: block;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 80px;
+  text-align: center;
+  color: #fff;
+  margin: -40px 0 0; }
+  .embla-navs:hover {
+    color: #818D58;}
+.embla-nav-prev {
+  left: 3%; }
+.embla-nav-next {
+  right: 3%; }
+.embla-dots{
+  text-align: center;
+  width: 100%;
+}
+.embla-dot{
+  padding: 5px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.embla-dot:after{
+  width: 4px;
+  height: 4px;
+  background: #5C5E65;
+  border-radius: 50%;
+  content: "";
+  display: block;
+}
+.embla-dot:hover:after{
+  background: #C19052;
+}
+.embla-dot.active:after{
+  background: #C19052;
+  transform: scale(2);
+}

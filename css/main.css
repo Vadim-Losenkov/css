@@ -1,0 +1,339 @@
+@import url(defaultStyles.css);
+@import url(fonts.css);
+@import url(animates.css);
+@import url(icons.css);
+@import url(jquery.formstyler.css);
+@import url(jquery.fancybox.css);
+@import url(jquery.fancybox-thumbs.css);
+@import url(embla-carousel.css);
+@import url(nstSlider.css);
+@import url(magiczoomplus.css);
+@import url(style.css);
+@import url(media.css);
+.productImagesCol{
+	width: 55%;
+}
+.productCard{
+	width: 45%;
+}
+.productMinImages li a {
+	display: block;
+	width: 126px;
+	height: 126px;
+	text-align: center;
+	position: relative;
+}
+.productMinImages {
+	width: 110px;
+}
+.productImages {
+	padding: 0 0 0 160px;
+}
+.productMinImages{
+	margin: 0 0 0 -134px;
+}
+.productMinImages li a img{
+	max-height: 130px;
+}
+.productBigImage > .MagicZoom{
+	width: 100%;
+}
+.productBigImage > .MagicZoom figure.mz-figure{
+	width: 100%;
+}
+.MagicZoom figure.mz-figure > img{
+	max-width: 100% !important;
+	max-height: 100% !important;
+}
+.productCard,
+.additionalProductsBlock{
+	zoom: .8;
+}
+.productCardBlock .link.link2{
+	display: none;
+}
+.topHeaderNav.right > ul{
+	float: left;
+}
+.topHeaderNav.right > .lang{
+	float: right;
+	margin-left: 20px;
+	line-height: 21px;
+}
+.topHeaderNav.right > .lang a{
+	border-bottom: 1px solid;
+}
+.topHeaderNav.right > .lang a.active_l{
+	display: none;
+}
+.headerBtns .lang{
+
+}
+.headerBtns .lang a.active_l{
+	display: none;
+}
+.teamListItemTxt .j-show_all{
+	border-bottom: 1px dashed;
+	font-size: 14px;
+}
+.main_sustain .sectionTitle{
+	display: none;
+}
+.section.main_sustain{
+	padding-top: 20px;
+}
+.sub-header {
+	width: 100%;
+	background: #F5F0E9;
+	padding: 133px 0 158px;
+	text-align: center;
+}
+.sub-header_text {
+	padding: 0 100px;
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 100;
+	font-size: 80px;
+	line-height: 120%;
+	text-align: center;
+	color: #544D46;
+}
+.about-brand {
+	padding: 67px 0 20px;
+}
+
+.about-brand .mainContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about-brand_left {
+	width: 40%;
+}
+.about-brand_right {
+	width: 60%;
+}
+.about-brand h2 {
+	margin-bottom: 32px;
+	font-family: "Proba Pro";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 48px;
+	color: #111111;
+}
+.about-brand p {
+	font-family: "Proba Pro";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #111111;
+}
+.media-list_inner {
+	position: relative;
+	height: 1350px;
+}
+.media-list_new__item {
+	position: absolute;
+	border: 3px solid #544D46;
+	box-sizing: border-box;
+	border-radius: 100%;
+	padding: 0;
+}
+.media-list_new__item a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.media-list_new__item img {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	object-fit: fill;
+}
+.media-list_new .circle_0 {
+	width: 445px;
+	height: 446px;
+	left: 9%;
+	top: 30px;
+}
+.media-list_new .circle_1 {
+	width: 325px;
+	height: 326px;
+	left: 41%;
+	top: 0;
+}
+.media-list_new .circle_2{
+	width: 206px;
+	height: 206px;
+	left: 41%;
+	top: 346px;
+}
+.media-list_new .circle_3{
+	width: 445px;
+	height: 446px;
+	left: 57%;
+	top: 228px;
+}
+.media-list_new .circle_4{
+	width: 206px;
+	height: 206px;
+	left: 9%;
+	top: 607px;
+}
+.media-list_new .circle_5{
+	width: 325px;
+	height: 326px;
+	left: 25%;
+	top: 542px;
+}
+.media-list_new .circle_6{
+	width: 206px;
+	height: 206px;
+	left: 50%;
+	top: 618px;
+}
+.media-list_new .circle_7{
+	width: 325px;
+	height: 326px;
+	left: 65%;
+	top: 714px;
+}
+.media-list_new .circle_8{
+	width: 206px;
+	height: 206px;
+	left: 19%;
+	top: 892px;
+}
+.media-list_new .circle_9 {
+	width: 445px;
+	height: 446px;
+	left: 34%;
+	top: 856px;
+}
+.media_form {
+	padding: 72px 0;
+	background: #F5F0E9;
+	margin-bottom: 50px;
+}
+.media_form .mainContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.media_form__left,
+.media_form__right {
+	width: calc(50% - 16px);
+}
+.media_form__inner {
+	background: #FFFFFF;
+	border-radius: 40px;
+	padding: 48px;
+}
+.media_form__left .media_form__inner {
+	padding: 79px 48px;
+}
+.media_form__left h2 {
+	margin-bottom: 32px;
+	font-family: "Proba Pro";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 64px;
+	color: #111111;
+
+}
+.media_form__left p {
+	font-family: "Proba Pro";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #111111;
+}
+
+.media_form__row {
+	margin-top: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.input_media {
+	margin-bottom: 10px;
+	width: 100%;
+	position: relative;
+	padding-top: 42px;
+}
+.input_media label {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	font-family: "Proba Pro";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #111111;
+	opacity: 0.3;
+}
+.input_media input:focus + label,
+.input_media input.active + label{
+	bottom: 34px;
+	opacity: 1;
+}
+.media_form__right input {
+	width: 100%;
+	outline: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid #000000;
+	border-left: none;
+}
+.media_form__right button {
+	width: 100%;
+	padding: 20px;
+	background: #544D46;
+	border-radius: 12px;
+	font-family: "Proba Pro";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+@media (max-width: 768px) {
+	.media-list_new__item {
+		border: 1px solid #000;
+	}
+	.sub-header_text {
+		padding: 0;
+		font-size: 40px;
+	}
+	.about-brand .mainContainer {
+		flex-direction: column-reverse;
+	}
+	.about-brand_left,
+	.about-brand_right {
+		width: 100%;
+	}
+	.media_form__left .media_form__inner,
+	.media_form__right .media_form__inner {
+		padding: 15px;
+	}
+	.media_form__left {
+		margin-bottom: 20px;
+	}
+	.media_form .mainContainer {
+		flex-direction: column;
+	}
+	.media_form__left, .media_form__right {
+		width: 100%;
+	}
+	.media_form__row {
+		flex-direction: column;
+	}
+
+}

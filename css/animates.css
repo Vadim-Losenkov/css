@@ -1,0 +1,199 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    transform: none; }
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0); } }
+
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0); }
+  70% {
+    transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0); }
+  90% {
+    transform: translate3d(0, -4px, 0); } }
+
+@keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3); }
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1); }
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9); }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03); }
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97); }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1); } }
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-10%, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+
+@keyframes zoomOut {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3); }
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(10%, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(90deg); }
+  100% {
+    transform: none; } }
+
+@keyframes swipeIco {
+  0% {
+    transform: translate3d(-20px, 0, 0);
+    opacity: 0; }
+  10% {
+    transform: translate3d(-20px, 0, 0);
+    opacity: 0; }
+  20% {
+    transform: translate3d(-20px, 0, 0);
+    opacity: 1; }
+  70% {
+    transform: translateZ(0);
+    opacity: 1; }
+  80% {
+    transform: translateZ(0);
+    opacity: 1; }
+  81% {
+    transform: translateZ(0);
+    opacity: 0; }
+  to {
+    transform: translateZ(0);
+    opacity: 0; } }
+
+@-webkit-keyframes scaleUpFrom {
+  from {
+    -webkit-transform: scale(1.8); } }
+
+@-moz-keyframes scaleUpFrom {
+  from {
+    -moz-transform: scale(1.8); } }
+
+@keyframes scaleUpFrom {
+  from {
+    transform: scale(1.8); } }
+
+@-webkit-keyframes scaleFadeUpFrom {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(1.8); } }
+
+@-moz-keyframes scaleFadeUpFrom {
+  from {
+    opacity: 0;
+    -moz-transform: scale(1.8); } }
+
+@keyframes scaleFadeUpFrom {
+  from {
+    opacity: 0;
+    transform: scale(1.8); } }
+
+@-webkit-keyframes scaleUpTo {
+  to {
+    -webkit-transform: scale(1.5) translateY(-100%); } }
+
+@-moz-keyframes scaleUpTo {
+  to {
+    -moz-transform: scale(1.5) translateY(-100%); } }
+
+@keyframes scaleUpTo {
+  to {
+    transform: scale(1.5) translateY(-100%); } }
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+@keyframes spinningR {
+  from {
+    transform: rotate(360deg); }
+  to {
+    transform: rotate(0deg); } }
+
+@keyframes spinningFluid {
+  0% {
+    transform: rotate(0deg) rotateX(0deg) rotateY(50deg) scale(1.2); }
+  50% {
+    transform: rotate(180deg) rotateX(50deg) rotateY(0deg) scale(1); }
+  100% {
+    transform: rotate(360deg) rotateX(0deg) rotateY(50deg) scale(1.2); } }
+
+@keyframes spinningFluidR {
+  0% {
+    transform: rotate(360deg) rotateX(50deg) rotateY(0deg) scale(1); }
+  50% {
+    transform: rotate(180deg) rotateX(0deg) rotateY(50deg) scale(1.2); }
+  100% {
+    transform: rotate(0deg) rotateX(50deg) rotateY(0deg) scale(1); } }
+
+.owl-fadeUp-in {
+  -webkit-animation: scaleUpFrom .3s ease both;
+  -moz-animation: scaleUpFrom .3s ease both;
+  animation: scaleUpFrom .3s ease both; }
+
+.owl-fadeUp-out {
+  -webkit-animation: scaleUpTo .3s ease both;
+  -moz-animation: scaleUpTo .3s ease both;
+  animation: scaleUpTo .3s ease both; }
